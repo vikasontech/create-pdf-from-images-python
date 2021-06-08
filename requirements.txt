@@ -3,7 +3,7 @@ chardet==3.0.4
 fpdf==1.7.2
 idna==2.9
 lxml==4.5.0
-Pillow==7.1.2
+Pillow==8.2.0
 requests==2.23.0
 urllib3==1.25.9
 XlsxWriter==1.2.8

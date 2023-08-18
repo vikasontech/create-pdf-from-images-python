@@ -16,7 +16,7 @@ def resize_photos(path):
         
     for file in files:
         foo = Image.open(path+"/"+file)
-        foo = foo.resize((1027,572),Image.ANTIALIAS)
+        foo = foo.resize((1027,572),Image.LANCZOS)
         foo = foo.convert("RGB")
         foo.save("temp/"+file,optimize=True,quality=95)
 
